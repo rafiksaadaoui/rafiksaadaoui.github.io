@@ -2,8 +2,8 @@
 
 
  @font-face {
-  font-family: "entypo";
-  src: url('fonts/entypo.ttf');
+  font-family: "SocialType";
+  src: url('fonts/SocialType.ttf');
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
@@ -172,9 +172,10 @@ nav a:hover {
   height: 100%;
 }
 /*LIEN RESEAUX SOCIAUX HEADER*/
-/*police des liens entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
+
+.font-facebook{
+  font-family: 'SocialType';
+  
 }
 
 section{
