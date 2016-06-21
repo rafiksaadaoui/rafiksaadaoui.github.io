@@ -3,7 +3,7 @@
 
  @font-face {
   font-family: "entypo";
-  src: url('../fonts/entypo.ttf');
+  src: url('fonts/entypo.ttf');
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
