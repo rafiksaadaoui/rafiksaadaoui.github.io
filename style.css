@@ -8,7 +8,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway+Dots);
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
-/*@import url(https://weloveiconfonts.com/api/?family=entypo);*/
+@import url(https://weloveiconfonts.com/api/?family=entypo);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
 
@@ -47,7 +47,7 @@ body{
   -webkit-perspective: 250px;
   perspective: 250px;
   display: inline-block;
-  font-family: Montserrat;
+  font-family: 'Open Sans Condensed';
   font-size: 4em;
   font-weight: bold;
   text-decoration: none;
@@ -1179,5 +1179,9 @@ h1 {
       text-align: center;
       margin-bottom: 5%;
       width: 93%;
+    }
+
+    ul #services{
+      padding-left: 0px;
     }
 }
