@@ -185,64 +185,51 @@ $('#hire .field:nth-child(2) input').blur(function () {
 		m2.velocity("reverse");
 	});
 
+//********************** PASTILLES**************************
+$(window).scroll(function(){
+	if($("html,body").scrollTop()<300){
 
-	$('a[href^="#"]').click(function(event) {
-		var id = $(this).attr("href");
-		var target = $(id).offset().top;
-		$('html, body').animate({scrollTop:target}, 500);
-		event.preventDefault();
-	});
+		$("#firstRond").removeClass("active");
+	}else{
+			$("#firstRond").addClass("active");
+	};
+})
+$('a[href^="#"]').click(function(event) {
+	var id = $(this).attr("href");
+	var target = $(id).offset().top;
+	$('html, body').animate({scrollTop:target}, 500);
+	event.preventDefault();
+});
 
 function getTargetTop(elem){
-	var id = elem.attr("href");
-	var offset = 60;
-	return $(id).offset().top - offset;
+var id = elem.attr("href");
+var offset = 60;
+return $(id).offset().top - offset;
 }
 
 
-	$(window).scroll(function(e){
-		isSelected($(window).scrollTop())
-	});
+$(window).scroll(function(e){
+	isSelected($(window).scrollTop())
+});
 
-var sections = $('a[href^="#"]');
+var sections = $('.scrool a[href^="#"]');
 
 function isSelected(scrolledTo){
 
-	var threshold = 100;
-	var i;
+var threshold = 100;
+var i;
 
-	for (i = 0; i < sections.length; i++) {
-		var section = $(sections[i]);
-		var target = getTargetTop(section);
+for (i = 0; i < sections.length; i++) {
+	var section = $(sections[i]);
+	var target = getTargetTop(section);
 
-		if (scrolledTo > target - threshold && scrolledTo < target + threshold) {
-			sections.removeClass("active");
-			section.addClass("active");
-		}
+	if (scrolledTo > target - threshold && scrolledTo < target + threshold) {
+		sections.removeClass("active");
+		section.addClass("active");
+	}
 
-	};
+};
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -173,11 +173,6 @@ nav a:hover {
 }
 /*LIEN RESEAUX SOCIAUX HEADER*/
 
-.font-facebook{
-  font-family: 'SocialType';
-  
-}
-
 section{
   width: 100%;
 }
@@ -231,12 +226,11 @@ section #services2 a {
 /**************PASTILLES 3 PAGES SCROOL******************/
 /*postionnement des pastilles*/
 .scrool{
-  opacity: 0.5;
   -webkit-backface-visibility: hidden;
   z-index: 5;
   position: fixed;
   top: 40%;
-  left:92%;
+  left:90.5%;
   right: 0px;
   margin: auto;
   width: 100px;
@@ -272,7 +266,7 @@ section #services2 a {
 .go-top {
 	position: fixed;
 	bottom: 0.5em;
-	right: 0.5em;
+	right: 1.8em;
 	text-decoration: none;
 	color: white;
 	font-size: 12px;
@@ -686,11 +680,12 @@ box-sizing:border-box;
 }
 
 /*LIEN RESEAUX SOCIAUX FOOTER*/
-/* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
+
 /*taille du conteneur*/
+.font-social{
+  font-family: 'SocialType';
+
+}
 section{
   width: 100%;
 }
@@ -949,7 +944,9 @@ h1 {
 }
 
 
-
+.wf-sourcesanspro-n4-active .footer{
+  display: none;
+}
 
 
 
@@ -1054,7 +1051,7 @@ h1 {
       flex-direction: column;
     }
 
-    .carousel{
+    /*.carousel{
       position: relative;
       margin: 0 auto;
       text-align: center;
@@ -1079,7 +1076,7 @@ h1 {
       text-align: center;
       margin-bottom: 5%;
       position: absolute;
-    }
+    }*/
 
     #realisation img{
       width: 100%;
@@ -1120,5 +1117,67 @@ h1 {
       width: 95%;
       height: auto;
       position: absolute;
+    }
+
+
+
+
+
+    #download_bras img{
+      float: right;
+      width: 100%;
+      height: 100%;
+
+
+    }
+
+    #download_bras{
+      display: none;
+      margin-left: 10%;
+      position:  absolute;
+      float: right;
+      margin-top: 120%;
+
+    }
+
+    #download_bras span{
+      display: none;
+      position:  absolute;
+      margin-top: -53%;
+      margin-left: -10%;
+      color: #60A5FF;
+      font-size: 1.5em;
+      font-weight: bold;
+
+    }
+
+    #fleche {
+      display: none;
+      position:  absolute;
+      margin-top: -55%;
+      margin-left: 20%;
+      transform: rotate(25deg);
+
+    }
+
+    #download{
+      display: none;
+      margin-left: 8.5%;
+      position:  absolute;
+      margin-top: 11%;
+    }
+
+    #download a img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel{
+      position: relative;
+      margin: 0 auto;
+      right: 0%;
+      text-align: center;
+      margin-bottom: 5%;
+      width: 93%;
     }
 }
