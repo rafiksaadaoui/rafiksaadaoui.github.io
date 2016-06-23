@@ -1210,7 +1210,8 @@ h1 {
       height: 60px;
       /*margin-left: 30px;*/
       position: fixed;
-      top: 5%;
+      top: 3%;
+      right: 3%;
       color: white;
       text-align: center;
       line-height: 60px;
