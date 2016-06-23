@@ -1415,4 +1415,14 @@ h1 {
               transform: scale(1.03, 1.03) translate3d(0, 0, 0);
     }
 
+    #home{
+      display: -webkit-box;
+ display: -moz-box;
+ display: box;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flexbox;
+ display: flex;
+    }
+
 }
