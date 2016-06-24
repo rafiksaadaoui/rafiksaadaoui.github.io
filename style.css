@@ -1401,7 +1401,7 @@ h1 {
       opacity: 0.5;
     	position: fixed;
     	bottom: 0.5em;
-    	left: -75%;
+    	right: 80%;
     	text-decoration: none;
     	color: white;
     	font-size: 12px;
